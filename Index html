@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Recherche Médicale - Madi</title>
+  <style>
+    body {
+      background-image: url('https://i.imgur.com/0ZfZ0ZL.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding-top: 100px;
+      backdrop-filter: blur(3px);
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .subtitle {
+      font-size: 20px;
+      margin-bottom: 40px;
+      font-style: italic;
+      color: #ccc;
+    }
+    input[type="text"] {
+      width: 60%;
+      padding: 15px;
+      font-size: 18px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+    }
+    button {
+      padding: 12px 25px;
+      font-size: 18px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 8px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+    .links {
+      margin-top: 50px;
+    }
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: rgba(0,0,0,0.6);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+    .links a:hover {
+      background-color: #4CAF50;
+    }
+    .quote {
+      margin-top: 60px;
+      font-size: 18px;
+      color: #ddd;
+      text-shadow: 1px 1px 2px #000;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenue Madi 🔬</h1>
+  <div class="subtitle">Ton espace de recherche, ton arme de savoir</div>
+  <form action="https://www.google.com/search" method="get" target="_blank">
+    <input type="text" name="q" placeholder="Tape ta recherche ici...">
+    <br>
+    <button type="submit">Rechercher</button>
+  </form>
+  <div class="links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a>
+    <a href="https://www.medscape.com/" target="_blank">Medscape</a>
+    <a href="https://www.youtube.com/results?search_query=anatomie+cours" target="_blank">YouTube Anatomie</a>
+    <a href="https://www.khanacademy.org/science/health-and-medicine" target="_blank">Khan Academy</a>
+    <a href="https://www.scribd.com/" target="_blank">Scribd (PDFs)</a>
+  </div>
+  <div class="quote">“Je ne suis pas né fort. Mais je suis devenu fort pour ceux que j’aime.”</div>
+</body>
+</html>
